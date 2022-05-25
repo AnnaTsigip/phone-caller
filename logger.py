@@ -11,7 +11,8 @@ def log(add):
 #print(log())
 def log_string(add):
     with open('file.txt', 'a', encoding='utf-8') as data:
-        data.write(f'Фамилия: {add[0]}, Имя: {add[1]},  Номер: {add[2]}, Описание: {add[3]}\n')
+        data.write(f'Фамилия: {add[0]}, Имя: {add[1]}, Номер: {add[2]}, Описание: {add[3]}\n')
+        data.write(f'\n')
 
 # чтение 
 def read():
