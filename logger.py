@@ -6,6 +6,7 @@ def log(add):
         data.write(f'Имя: {add[1]}\n')
         data.write(f'Номер: {add[2]}\n')
         data.write(f'Описание: {add[3]}\n')
+        data.write(f'\n')
 
 #print(log())
 # with open('file.csv', 'a', encoding='utf-8') as data:

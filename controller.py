@@ -3,11 +3,11 @@ import add
 import logger
 
 def run():
-    do_it = ui.hello()
-    if do_it == 1:
+    do = ui.hello()
+    if do == 1:
         print('Давайте внесем данные')
-        added = add.added() # внесение контакта
-        logger.log(added)
+        user_data = add.add() # внесение контакта
+        logger.log(user_data)
     # if do_it == 2:
     #     print('Кого ищем?')
 

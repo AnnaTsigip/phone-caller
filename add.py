@@ -1,15 +1,15 @@
-def add(added):
-    added = []
+def add():
+    user_data = []
     first_name = input("Введите фамилию: ").capitalize()
-    added.append(first_name)
+    user_data.append(first_name)
     last_name = input("Введите имя: ").capitalize() 
-    added.append(last_name)  
+    user_data.append(last_name)  
     phone_number = input("Введите номер телефона: ").capitalize()
-    added.append(phone_number)
+    user_data.append(phone_number)
     additional_data = input("Дополнительные данные: ").capitalize()
-    added.append(additional_data)
-    print('Добавлен контакт: added')
-    return added
+    user_data.append(additional_data)
+    print('Добавлен контакт: ')
+    return user_data
 #print(f'{first_name};{last_name};{phone_number};{dditional_data}') 
 #print(add())
 
