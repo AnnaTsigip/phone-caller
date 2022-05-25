@@ -9,18 +9,14 @@ def log(add):
         data.write(f'\n')
 
 #print(log())
-# with open('file.csv', 'a', encoding='utf-8') as data:
-#     data.write(f'Фамилия: {first_name()}\n')
-#     data.write(f'Имя: {last_name()}\n')
-#     data.write(f'Номер: {phone_number()}\n')
-#     data.write(f'Описание: {additional_data()}\n')
+def log_string():
+    with open('file.csv', 'a', encoding='utf-8') as data:
+        data.write(f'Фамилия: {add[0]}; Имя: {add[1]}; Номер: {add[2]}; Описание: {add[3]}\n')
 
 # чтение 
-# with open('file.txt', 'r', encoding='utf-8') as data:
-#     for i in data:
-#         string = data.readline()
-#         print(string)
+def read():
+    with open('file.txt', 'r', encoding='utf-8') as data:
+        for line in data:
+            print(line)
 
 
-# a = find.find()
-#     if a == 1:
